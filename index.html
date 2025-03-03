@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple and modern monthly subscription tracker app to help you manage your subscriptions easily.">
+    <title>Monthly Subscription Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 1rem;
+        }
+        h1 {
+            margin: 0;
+        }
+        .subscription-list {
+            list-style: none;
+            padding: 0;
+        }
+        .subscription-item {
+            background: white;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            header, footer {
+                font-size: 1.2rem;
+            }
+            .subscription-item {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Monthly Subscription Tracker</h1>
+    </header>
+    <main>
+        <h2>Your Subscriptions</h2>
+        <ul class="subscription-list">
+            <li class="subscription-item">Netflix - $12.99</li>
+            <li class="subscription-item">Spotify - $9.99</li>
+            <li class="subscription-item">Amazon Prime - $14.99</li>
+            <li class="subscription-item">Hulu - $5.99</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2023 Monthly Subscription Tracker</p>
+    </footer>
+</body>
+</html>
